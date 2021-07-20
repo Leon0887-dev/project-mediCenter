@@ -156,6 +156,7 @@ nav a:hover{
 .flex{
     display: flex;
     flex-wrap: wrap;
+    
 }
 article{
     flex: 1;
@@ -212,4 +213,95 @@ article .news_resume{
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 30px;
+}
+
+aside .box{
+    min-width: 150px;
+    min-height: 150px;
+    background-color: #39aae1;
+    margin: 0 15px 15px 0;
+}
+aside .appoin_title{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px
+}
+aside .info_socais_geral{
+    display: flex;
+    justify-content: space-between;
+}
+aside .phone_img{
+    background-image: url('../images/phone.png');
+    width: 29px;
+    height: 29px;
+    background-size: cover;
+    background-color: #5c5c5c17;
+    margin: 10px 0px;
+    margin-right: 10px;
+    
+
+}
+
+aside .phone_text{
+    flex: 2;
+    padding: 8px;
+    color: #5c5c5c;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+aside .phone_text strong{
+    color: #000;
+}
+
+aside .email_img{
+    background-image: url('../images/email.png');
+    width: 29px;
+    height: 29px;
+    background-size: cover;
+    background-color: #5c5c5c17;
+    margin: 10px 0px;
+    margin-right: 10px;
+    
+}
+aside .email_text{
+    flex: 2;
+    padding: 8px;
+    color: #5c5c5c;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+aside .contract_img{
+    width: 29px;
+    height: 29px;
+    background-size: cover;
+    background-color: #5c5c5c17;
+    margin: 10px 0px;
+    margin-right: 10px;
+    
+}
+aside .contract_text{
+    flex: 2;
+    padding: 8px;
+    color: #5c5c5c;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+aside .info_socais_geral{
+    border-top: 1px solid #E0E0E0 ;
+    border-bottom: 1px solid #E0E0E0;
+}
+aside .phone_img:hover,
+.email_img:hover,
+.contract_img:hover{
+    background-color: #36a9e1;
+}
+aside a{
+    color: #3156A3;
+    border-bottom: 1px dotted #3156A3;
+    text-decoration: none;
+}
+aside a:hover{
+    border-bottom: none;
+    text-decoration: underline;
 }
