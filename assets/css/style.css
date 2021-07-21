@@ -239,6 +239,7 @@ aside .phone_img{
     background-color: #5c5c5c17;
     margin: 10px 0px;
     margin-right: 10px;
+    transition: background-color 2s ease;
     
 
 }
@@ -262,6 +263,7 @@ aside .email_img{
     background-color: #5c5c5c17;
     margin: 10px 0px;
     margin-right: 10px;
+    transition: background-color 2s ease;
     
 }
 aside .email_text{
@@ -278,6 +280,7 @@ aside .contract_img{
     background-color: #5c5c5c17;
     margin: 10px 0px;
     margin-right: 10px;
+    transition: background-color 3s ease;
     
 }
 aside .contract_text{
@@ -304,4 +307,34 @@ aside a{
 aside a:hover{
     border-bottom: none;
     text-decoration: underline;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer_menu{
+    display: flex;
+}
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+.fm_1{
+    background-color: #39aae1;
+}
+.fm_2{
+    background-color:#0079c7;
+}
+.fm_3{
+    background-color: #2b4c99;
+}
+.footer_area{
+    background-color: red;
+}
+.flexcolumn{
+   flex-direction: column;
 }
