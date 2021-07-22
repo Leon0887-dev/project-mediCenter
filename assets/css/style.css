@@ -223,7 +223,7 @@ aside .box{
 }
 aside .appoin_title{
     color: #5c5c5c;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     margin-bottom: 30px
 }
@@ -248,7 +248,7 @@ aside .phone_text{
     flex: 2;
     padding: 8px;
     color: #5c5c5c;
-    font-size: 14px;
+    font-size: 12px;
     margin: 10px 0px;
 }
 aside .phone_text strong{
@@ -270,7 +270,7 @@ aside .email_text{
     flex: 2;
     padding: 8px;
     color: #5c5c5c;
-    font-size: 14px;
+    font-size: 12px;
     margin: 10px 0px;
 }
 aside .contract_img{
@@ -287,7 +287,7 @@ aside .contract_text{
     flex: 2;
     padding: 8px;
     color: #5c5c5c;
-    font-size: 14px;
+    font-size: 12px;
     margin: 10px 0px;
 }
 aside .info_socais_geral{
@@ -332,9 +332,103 @@ footer{
 .fm_3{
     background-color: #2b4c99;
 }
-.footer_area{
-    background-color: red;
+.fm_1 img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
 }
 .flexcolumn{
    flex-direction: column;
+}
+.footer_menu h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+.footer_menu p {
+    padding: 13px 0px;
+}
+.footer_menu p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.footer_menu p a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.footer_area{
+    display: flex;
+    color: #fff;
+}
+.footer_areaitem{
+    flex: 1;
+}
+footer .widget_title_text{
+    color: #fff;
+}
+footer .medicenter_text{
+    color: #909090;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 10px 20px 0px ;
+}
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 11px;
+}
+.footer_copy a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer_copy a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+address .medi_clinic{
+    color: #909090;
+    padding-right: 20px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+address .end_number{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-right: 40px;
+    color: #909090;
+    font-size: 13px;
+}
+.end_number a{
+    color: #d5d5d5;
+    text-decoration: none;
+    margin-right: -40px;
+}
+.end_number a:hover{
+    text-decoration: underline;
+    color: #d5d5d5;
+}
+.posts{
+    margin-bottom: 20px;
+}
+.posts a{
+    text-decoration: none;
+    color: #d5d5d5
+}
+.posts a:hover{
+    text-decoration: underline;
+    color: #d5d5d5;
+}
+.post_text{
+    color: #909090;
+    font-size: 13px;
+    padding: 10px 10px 0px 10px;
+    text-decoration: none;
+}
+.post_date{
+    color: #43b3e5;
+    font-size: 11px;
+    padding: 0px 10px 10px 10px;
+    margin-top: 5px;
 }
