@@ -239,9 +239,6 @@ aside .phone_img{
     background-color: #5c5c5c17;
     margin: 10px 0px;
     margin-right: 10px;
-    transition: background-color 2s ease;
-    
-
 }
 
 aside .phone_text{
@@ -262,10 +259,9 @@ aside .email_img{
     background-size: cover;
     background-color: #5c5c5c17;
     margin: 10px 0px;
-    margin-right: 10px;
-    transition: background-color 2s ease;
-    
+    margin-right: 10px;   
 }
+
 aside .email_text{
     flex: 2;
     padding: 8px;
@@ -274,14 +270,17 @@ aside .email_text{
     margin: 10px 0px;
 }
 aside .contract_img{
-    width: 29px;
-    height: 29px;
-    background-size: cover;
-    background-color: #5c5c5c17;
+    width: 32px;
+    height: 32px;
+    background-color:#d5d5d5;
+    padding: 5px;
     margin: 10px 0px;
-    margin-right: 10px;
-    transition: background-color 3s ease;
-    
+    margin-right: 10px;   
+}
+aside .contract_img img{
+    width: 23px;
+    height: 23px;
+    background-color: #d5d5d5;
 }
 aside .contract_text{
     flex: 2;
@@ -294,11 +293,7 @@ aside .info_socais_geral{
     border-top: 1px solid #E0E0E0 ;
     border-bottom: 1px solid #E0E0E0;
 }
-aside .phone_img:hover,
-.email_img:hover,
-.contract_img:hover{
-    background-color: #36a9e1;
-}
+
 aside a{
     color: #3156A3;
     border-bottom: 1px dotted #3156A3;
@@ -431,4 +426,21 @@ address .end_number{
     font-size: 11px;
     padding: 0px 10px 10px 10px;
     margin-top: 5px;
+}
+.ico_sociais{
+    display: flex;
+    margin-top: 12px;
+}
+.ico_sociais_face{
+    margin-right: 5px;
+    background-color: #353535;
+    width: 30px;
+    height: 30px;
+   text-align: center;
+   padding: 5px;
+}
+.ico_sociais_face img{
+    width: 21px;
+    height:21px;
+    background-color: #818181;  
 }
