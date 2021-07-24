@@ -216,10 +216,10 @@ article .news_resume{
 }
 
 aside .box{
-    min-width: 150px;
-    min-height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #39aae1;
-    margin: 0 15px 15px 0;
+    margin: 0 30px 30px 0;
 }
 aside .appoin_title{
     color: #5c5c5c;
@@ -443,4 +443,73 @@ address .end_number{
     width: 21px;
     height:21px;
     background-color: #818181;  
+}
+.menumobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 0px;
+    margin-right: 20px;
+}
+.mn_line{
+    height: 3px;
+    background-color: #39aae1;
+}
+@media (max-width: 680px) {
+    #banner{
+        height: auto;
+    }
+    .banner_text
+    {
+        padding: 20px;
+    }
+    .banner_text h1{
+        font-size: 55px;
+    }
+    .banner_text h2{
+        font-size: 17px;
+    }
+    .banner_options{
+        flex-direction: column;
+        height: auto;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section,
+    #geral aside{
+        padding: 20px;
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding-left: 20px;
+    }
+     header .container{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+    header {
+        height: auto;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .menumobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
