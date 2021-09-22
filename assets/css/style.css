@@ -156,6 +156,7 @@ nav a:hover{
 .flex{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 article{
@@ -216,10 +217,11 @@ article .news_resume{
 }
 
 aside .box{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #39aae1;
-    margin: 0 30px 30px 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 aside .appoin_title{
     color: #5c5c5c;
@@ -455,7 +457,7 @@ address .end_number{
     height: 3px;
     background-color: #39aae1;
 }
-@media (max-width: 680px) {
+@media (max-width: 880px) {
     #banner{
         height: auto;
     }
@@ -511,5 +513,13 @@ address .end_number{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+    .flex{
+        justify-content: center;
+        flex-direction: row;
+    }
+    aside .box{
+        width: 200px;
+        height: 200px;
     }
 }
