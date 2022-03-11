@@ -1,14 +1,2 @@
-
-
-## Tecnologias usadas 
-
-- Html
-- Css
-- Javascript
-
-## informações:
- - primeiro projeto feito com flexbox 
-
- ## créditos 
-  -  Curso B7web 
-
+# projeto-medicenter
+ projeto do curso html5 e css da b7web
